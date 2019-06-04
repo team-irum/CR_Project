@@ -1,5 +1,5 @@
 #pragma once
-class CTitleScene : public CScene
+class ChangeRoomScene : public CScene
 {
 private:
 	enum SCENE_BUTTON_KIND
@@ -9,10 +9,10 @@ private:
 		BUTTON_EXIT,
 		BUTTON_WINDOWCLOSE
 	};
-	
+
 public:
-	CTitleScene();
-	~CTitleScene();
+	ChangeRoomScene();
+	~ChangeRoomScene();
 
 public:
 	virtual void Init() override;

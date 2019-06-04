@@ -17,10 +17,12 @@ void CTitleScene::Init()
 	m_Buttons[BUTTON_START] = new CButton();
 	m_Buttons[BUTTON_CREDIT] = new CButton();
 	m_Buttons[BUTTON_EXIT] = new CButton();
+	m_Buttons[BUTTON_WINDOWCLOSE] = new CButton();
 	
 	m_Buttons[BUTTON_START]->Init(IMAGE["StartButton1"], IMAGE["StartButton2"], IMAGE["StartButton3"], {40, 600});
 	m_Buttons[BUTTON_CREDIT]->Init(IMAGE["CreditButton1"], IMAGE["CreditButton2"], IMAGE["CreditButton3"], { 240, 600 });
 	m_Buttons[BUTTON_EXIT]->Init(IMAGE["ExitButton1"], IMAGE["ExitButton2"], IMAGE["ExitButton3"], { 440, 600 });
+	m_Buttons[BUTTON_WINDOWCLOSE]->Init(IMAGE["CloseButton1"], IMAGE["CloseButton2"], IMAGE["CloseButton3"], { 300, 60 });
 
 }
 
@@ -41,6 +43,11 @@ void CTitleScene::Update()
 		Credit = true;
 	}
 
+	if (m_Buttons[BUTTON_WINDOWCLOSE]->IsClicked())
+	{
+		Credit = false;
+	}
+
 	if (m_Buttons[BUTTON_EXIT]->IsClicked())
 	{
 		exit(0);
@@ -50,14 +57,15 @@ void CTitleScene::Update()
 void CTitleScene::Render()
 {
 	IMAGE["TitleBG"]->Render({ 0,0 }, RGB(0, 0, 0));
-	for (auto& iter : m_Buttons)
-	{
-		iter.second->Render(RGB(255, 0, 255));
-	}
-
-	if(Credit == true)
-	IMAGE["CreditWindow"]->Render({ 50,60 }, RGB(255, 0, 255));
 	m_Buttons[BUTTON_START]->Render(RGB(255, 0, 255));
+	m_Buttons[BUTTON_CREDIT]->Render(RGB(255, 0, 255));
+	m_Buttons[BUTTON_EXIT]->Render(RGB(255, 0, 255));
+
+	if (Credit == true)
+	{
+		IMAGE["CreditWindow"]->Render({ 50,60 }, RGB(255, 0, 255));
+		m_Buttons[BUTTON_WINDOWCLOSE]->Render(RGB(255, 0, 255));
+	}
 }
 
 void CTitleScene::Release()
