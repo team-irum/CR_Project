@@ -1,6 +1,6 @@
 #include "stdafx.h"
 
-bool Credit = false;
+bool Credit = false;//Å©·¹µ÷È­¸é
 
 CTitleScene::CTitleScene()
 {
@@ -38,6 +38,7 @@ void CTitleScene::Update()
 
 	if (m_Buttons[BUTTON_CREDIT]->IsClicked())
 	{
+		//¾Ó±â¸ð¶ì1234
 		Credit = true;
 	}
 
@@ -56,7 +57,8 @@ void CTitleScene::Render()
 	}
 
 	if(Credit == true)
-	IMAGE["CreditWindow"]->Render({ 10,10 }, RGB(255, 0, 255));
+	IMAGE["CreditWindow"]->Render({ 50,60 }, RGB(255, 0, 255));
+	m_Buttons[BUTTON_START]->Render(RGB(255, 0, 255));
 }
 
 void CTitleScene::Release()
