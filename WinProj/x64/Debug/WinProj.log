@@ -1,0 +1,10 @@
+﻿  CSoundManager.cpp
+c:\users\방정혁\desktop\방정혁분비물\winproj\csoundmanager.cpp(28): warning C4311: '형식 캐스트': 'LPVOID'에서 'DWORD'(으)로 포인터가 잘립니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\csoundmanager.cpp(28): warning C4302: '형식 캐스트': 'LPVOID'에서 'DWORD'(으)로 잘립니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\csoundmanager.cpp(53): warning C4311: '형식 캐스트': 'LPVOID'에서 'DWORD'(으)로 포인터가 잘립니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\csoundmanager.cpp(53): warning C4302: '형식 캐스트': 'LPVOID'에서 'DWORD'(으)로 잘립니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\csoundmanager.cpp(54): warning C4311: '형식 캐스트': 'LPVOID'에서 'DWORD'(으)로 포인터가 잘립니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\csoundmanager.cpp(54): warning C4302: '형식 캐스트': 'LPVOID'에서 'DWORD'(으)로 잘립니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\csoundmanager.cpp(63): warning C4311: '형식 캐스트': 'LPVOID'에서 'DWORD'(으)로 포인터가 잘립니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\csoundmanager.cpp(63): warning C4302: '형식 캐스트': 'LPVOID'에서 'DWORD'(으)로 잘립니다.
+  WinProj.vcxproj -> C:\Users\방정혁\Desktop\방정혁분비물\x64\Debug\WinProj.exe

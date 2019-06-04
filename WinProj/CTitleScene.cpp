@@ -38,7 +38,6 @@ void CTitleScene::Update()
 
 	if (m_Buttons[BUTTON_CREDIT]->IsClicked())
 	{
-		//¾Ó±â¸ð¶ì1234
 		Credit = true;
 	}
 
