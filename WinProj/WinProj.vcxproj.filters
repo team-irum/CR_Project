@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{a59ad21e-567a-4f94-abbc-baa450a7aa4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager">
+      <UniqueIdentifier>{79ff3173-260e-4ae1-b97e-39d05fb013cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{618ad2a9-b4f8-457b-8774-b814ac5123ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{aee9dac0-1a7a-4d2c-b1c3-bffc31a49a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager\IMAGE">
+      <UniqueIdentifier>{c1987f9f-c30e-4422-bf9a-7185d8cb8310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager\SCENE">
+      <UniqueIdentifier>{b3eb05ee-823d-4982-af9f-f1ca566a0049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{4ba8482a-92ef-4858-a69d-2d7becb02651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager\INPUT">
+      <UniqueIdentifier>{d7a59a6b-8185-49e5-a876-f950447944aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Fish">
+      <UniqueIdentifier>{f5beee6a-49a4-4d8e-8c87-0fcb076ef129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Fish\Fishes">
+      <UniqueIdentifier>{b3929e49-55a1-49c7-a498-6efd81f2e11f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager\Sound">
+      <UniqueIdentifier>{c3ad1310-8982-4079-9f10-b79d6581c9dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager\TIME">
+      <UniqueIdentifier>{817fde52-40d7-459c-b7ee-2c477ecb70d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine\Manager\BUTTON">
+      <UniqueIdentifier>{ee1484b3-3ead-4802-9f0e-d55ee75aaf42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="WinProj.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CImageManager.h">
+      <Filter>Engine\Manager\IMAGE</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Engine\Manager\SCENE</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>Engine\Manager\SCENE</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture.h">
+      <Filter>Engine\Manager\IMAGE</Filter>
+    </ClInclude>
+    <ClInclude Include="CTestScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CInputManager.h">
+      <Filter>Engine\Manager\INPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation.h">
+      <Filter>Engine\Manager\IMAGE</Filter>
+    </ClInclude>
+    <ClInclude Include="CFish.h">
+      <Filter>Game\Fish</Filter>
+    </ClInclude>
+    <ClInclude Include="CAmp.h">
+      <Filter>Game\Fish\Fishes</Filter>
+    </ClInclude>
+    <ClInclude Include="CAngie.h">
+      <Filter>Game\Fish\Fishes</Filter>
+    </ClInclude>
+    <ClInclude Include="COctopus.h">
+      <Filter>Game\Fish\Fishes</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlip.h">
+      <Filter>Game\Fish\Fishes</Filter>
+    </ClInclude>
+    <ClInclude Include="CItchy.h">
+      <Filter>Game\Fish\Fishes</Filter>
+    </ClInclude>
+    <ClInclude Include="CSystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>Engine\Manager\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundManager.h">
+      <Filter>Engine\Manager\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeManager.h">
+      <Filter>Engine\Manager\TIME</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimer.h">
+      <Filter>Engine\Manager\TIME</Filter>
+    </ClInclude>
+    <ClInclude Include="CGash.h">
+      <Filter>Game\Fish\Fishes</Filter>
+    </ClInclude>
+    <ClInclude Include="CSans.h">
+      <Filter>Game\Fish\Fishes</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainGame.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CTitleScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CButton.h">
+      <Filter>Engine\Manager\BUTTON</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CSystem.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="CImageManager.cpp">
+      <Filter>Engine\Manager\IMAGE</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Engine\Manager\SCENE</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>Engine\Manager\SCENE</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture.cpp">
+      <Filter>Engine\Manager\IMAGE</Filter>
+    </ClCompile>
+    <ClCompile Include="CTestScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CInputManager.cpp">
+      <Filter>Engine\Manager\INPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation.cpp">
+      <Filter>Engine\Manager\IMAGE</Filter>
+    </ClCompile>
+    <ClCompile Include="CFish.cpp">
+      <Filter>Game\Fish</Filter>
+    </ClCompile>
+    <ClCompile Include="CAmp.cpp">
+      <Filter>Game\Fish\Fishes</Filter>
+    </ClCompile>
+    <ClCompile Include="CAngie.cpp">
+      <Filter>Game\Fish\Fishes</Filter>
+    </ClCompile>
+    <ClCompile Include="COctopus.cpp">
+      <Filter>Game\Fish\Fishes</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlip.cpp">
+      <Filter>Game\Fish\Fishes</Filter>
+    </ClCompile>
+    <ClCompile Include="CItchy.cpp">
+      <Filter>Game\Fish\Fishes</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>Engine\Manager\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundManager.cpp">
+      <Filter>Engine\Manager\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeManager.cpp">
+      <Filter>Engine\Manager\TIME</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimer.cpp">
+      <Filter>Engine\Manager\TIME</Filter>
+    </ClCompile>
+    <ClCompile Include="CGash.cpp">
+      <Filter>Game\Fish\Fishes</Filter>
+    </ClCompile>
+    <ClCompile Include="CSans.cpp">
+      <Filter>Game\Fish\Fishes</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainGame.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CTitleScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CButton.cpp">
+      <Filter>Engine\Manager\BUTTON</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WinProj.rc">
+      <Filter>Engine\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="MyIcon.ico">
+      <Filter>Engine\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

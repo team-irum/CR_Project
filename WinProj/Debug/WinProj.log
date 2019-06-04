@@ -1,0 +1,6 @@
+﻿  CSystem.cpp
+d:\방정혁\visual studio project\프밍수업_2학년\2019-05-28_team\git2\winproj\csystem.cpp(71): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\방정혁\visual studio project\프밍수업_2학년\2019-05-28_team\git2\winproj\csystem.cpp(83): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CTitleScene.cpp
+  코드를 생성하고 있습니다...
+  WinProj.vcxproj -> D:\방정혁\Visual Studio Project\프밍수업_2학년\2019-05-28_Team\Git2\Debug\WinProj.exe
