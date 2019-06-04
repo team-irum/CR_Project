@@ -26,6 +26,9 @@ void CMainGame::Init()
 	IMAGE.AddTexture("ExitButton1", "./resource/Button/e_1.bmp");
 	IMAGE.AddTexture("ExitButton2", "./resource/Button/e_2.bmp");
 	IMAGE.AddTexture("ExitButton3", "./resource/Button/e_3.bmp");
+	IMAGE.AddTexture("CloseButton1", "./resource/Button/Close_1.bmp");
+	IMAGE.AddTexture("CloseButton2", "./resource/Button/Close_2.bmp");
+	IMAGE.AddTexture("CloseButton3", "./resource/Button/Close_3.bmp");
 	IMAGE.AddTexture("CreditWindow", "./resource/Credit/CreditWindow.bmp");
 
 	SCENE.AddScene("TitleScene", new CTitleScene()); // ¾À Ãß°¡

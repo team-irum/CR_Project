@@ -76,3 +76,4 @@ using namespace std;
 
 #include "CTitleScene.h"
 #include "CTestSCene.h"
+#include "ChangeRoomScene.h"
