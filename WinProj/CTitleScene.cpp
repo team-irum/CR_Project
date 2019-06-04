@@ -35,7 +35,7 @@ void CTitleScene::Update()
 
 	if (m_Buttons[BUTTON_START]->IsClicked())
 	{
-		SCENE.ChangeScene("TestScene");
+		SCENE.ChangeScene("ChangeRoomScene");
 	}
 
 	if (m_Buttons[BUTTON_CREDIT]->IsClicked())

@@ -150,6 +150,7 @@
     <ClInclude Include="CButton.h" />
     <ClInclude Include="CFish.h" />
     <ClInclude Include="CGash.h" />
+    <ClInclude Include="ChangeRoomScene.h" />
     <ClInclude Include="CImageManager.h" />
     <ClInclude Include="CInputManager.h" />
     <ClInclude Include="CItchy.h" />
@@ -180,6 +181,7 @@
     <ClCompile Include="CButton.cpp" />
     <ClCompile Include="CFish.cpp" />
     <ClCompile Include="CGash.cpp" />
+    <ClCompile Include="ChangeRoomScene.cpp" />
     <ClCompile Include="CImageManager.cpp" />
     <ClCompile Include="CInputManager.cpp" />
     <ClCompile Include="CItchy.cpp" />
