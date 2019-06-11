@@ -1,4 +1,5 @@
 #pragma once
+
 class ChangeRoomScene : public CScene
 {
 private:
@@ -8,7 +9,8 @@ private:
 		BUTTON_CREDIT,
 		BUTTON_EXIT,
 		BUTTON_WINDOWCLOSE,
-		BUTTON_SOUND
+		BUTTON_SOUND,
+		BUTTON_TITLE
 	};
 
 public:

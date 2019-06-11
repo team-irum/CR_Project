@@ -30,6 +30,9 @@ void CMainGame::Init()
 	IMAGE.AddTexture("SoundButton1", "./resource/Button/s_1.bmp");
 	IMAGE.AddTexture("SoundButton2", "./resource/Button/s_2.bmp");
 	IMAGE.AddTexture("SoundButton3", "./resource/Button/s_3.bmp");
+	IMAGE.AddTexture("HomeButton1", "./resource/Button/h_1.bmp");
+	IMAGE.AddTexture("HomeButton2", "./resource/Button/h_2.bmp");
+	IMAGE.AddTexture("HomeButton3", "./resource/Button/h_3.bmp");
 	IMAGE.AddTexture("CloseButton1", "./resource/Button/Close_1.bmp");
 	IMAGE.AddTexture("CloseButton2", "./resource/Button/Close_2.bmp");
 	IMAGE.AddTexture("CloseButton3", "./resource/Button/Close_3.bmp");
