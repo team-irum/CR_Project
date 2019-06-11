@@ -7,7 +7,7 @@ public:
 	~CAnimation();
 public:
 	void Update();
-	void Render(const Vector2& _vPos, COLORREF _ColorKey = RGB(0, 0, 0));
+	void Render(const Vector2& _vPos, COLORREF _ColorKey = -1);
 private:
 	CTexture * m_pTexture = nullptr;
 	CTimer * m_pTimer = nullptr;

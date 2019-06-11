@@ -19,18 +19,7 @@ CAnimation::~CAnimation()
 void CAnimation::Update()
 {
 	m_iCurrentTime = timeGetTime();
-	/*if (m_iCurrentTime - m_iOldTime > m_fDelay * 1000)
-	{
-		m_iOldTime = m_iCurrentTime;
-		m_iCurrentFrame++;
-		m_vFramePos.x += m_iFrameWidth;
-		if (m_iCurrentFrame == m_iMaxFrame)
-		{
-			m_vFramePos.x = 0;
-			m_iCurrentFrame = 0;
-		}
-	}*/
-	
+
 	if (m_fTime >= m_fDelay)
 	{
 		m_fTime = 0.f;

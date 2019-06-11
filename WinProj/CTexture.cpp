@@ -19,7 +19,7 @@ CTexture::~CTexture()
 }
 
 void CTexture::Render(const Vector2 & _vPos, COLORREF _ColorKey)
-{
+{	
 	IMAGE.Render(this, _vPos, _ColorKey);
 }
 

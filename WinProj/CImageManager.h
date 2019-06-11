@@ -7,7 +7,9 @@ public:
 	CImageManager();
 	~CImageManager();
 private:
-	
+
+	BLENDFUNCTION m_Blend;
+	HDC m_hAlphaDC;
 	HDC m_hDC;
 	HDC	m_hMemDC; // HDC를 하나더 선언해준다. HDC는 '그리는 작업' 이다.
 
@@ -32,8 +34,8 @@ public:
 
 	CTexture * AddTexture(const string& _Key, const string& _Path);
 	CTexture * FindTexture(const string& _Key);
-	void Render(CTexture* _pTexture, const Vector2& _vPos, COLORREF _ColorKey);
-	void CropRender(CTexture* _pTexture, const Vector2& _vPos,const Vector2& _vCropPos,int _SrcW, int _SrcH,COLORREF _ColorKey);
+	void Render(CTexture* _pTexture, const Vector2& _vPos, COLORREF _ColorKey = -1);
+	void CropRender(CTexture* _pTexture, const Vector2& _vPos,const Vector2& _vCropPos,int _SrcW, int _SrcH,COLORREF _ColorKey = -1);
 	//void CropRender();
 
 	CTexture * operator [] (const string& _Key)

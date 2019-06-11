@@ -14,6 +14,7 @@ CImageManager::CImageManager()
 
 	m_hMyPen = CreatePen(PS_SOLID, 0, RGB(255, 255, 255));
 	m_hOldPen = (HPEN)SelectObject(m_hMemDC, m_hMyPen);
+	//m_hAlphaDC = CreateCompatibleDC(m_hMemDC);
 
 }
 
@@ -29,33 +30,52 @@ CImageManager::~CImageManager()
 	DeleteObject(SelectObject(m_hMemDC, m_OldBitmap)); // 종이 원래대로 한 후 제거
 	DeleteObject(SelectObject(m_hMemDC, m_hOldPen));
 	DeleteObject(SelectObject(m_hMemDC, m_hOldBrush));
+	//DeleteObject(SelectObject(AlphaBlend))
+	
+	DeleteDC(m_hAlphaDC);
 	DeleteDC(m_hMemDC); // hMemDC 제거
 	ReleaseDC(GetHWND, m_hDC);// 그리기 종료
 }
 
 void CImageManager::Begin()
 {
-	InvalidateRect(GetHWND, NULL, FALSE);
 
-	Rectangle(m_hMemDC, 0, 0, WINSIZEX, WINSIZEY);
 }
 void CImageManager::Render(CTexture * _pTexture, const Vector2 & _vPos, COLORREF _ColorKey)
 {
-	INT w = _pTexture->GetWidth();
-	INT h = _pTexture->GetHeight();
+	//5BitBlt(m_hAlphaDC, 0, 0, WINSIZEX, WINSIZEY, m_hMemDC, 0, 0, SRCCOPY);
+		INT w = _pTexture->GetWidth();
+		INT h = _pTexture->GetHeight();
+
+		if(_ColorKey != -1)
+		{
 			TransparentBlt(
-		m_hMemDC,
-		_vPos.x,
-		_vPos.y,
-		w,
-		h,
-		_pTexture->GetDC(),
-		0,
-		0,
-		w,
-		h,
-		_ColorKey);
-	
+				m_hMemDC,
+				_vPos.x,
+				_vPos.y,
+				w,
+				h,
+				_pTexture->GetDC(),
+				0,
+				0,
+				w,
+				h,
+				_ColorKey);
+		}
+		else
+		{
+			BitBlt(
+				m_hMemDC,
+				_vPos.x,
+				_vPos.y,
+				w,
+				h,
+				_pTexture->GetDC(),
+				0,
+				0,
+				SRCCOPY);
+		}
+
 }
 void CImageManager::End()
 {
@@ -94,7 +114,21 @@ void CImageManager::CropRender(CTexture * _pTexture, const Vector2 & _vPos, cons
 	INT w = _pTexture->GetWidth();
 	INT h = _pTexture->GetHeight();
 
-
+	if (_ColorKey == -1)
+	{
+		BitBlt(
+			m_hMemDC,
+			_vPos.x,
+			_vPos.y,
+			_SrcW,
+			_SrcH,
+			_pTexture->GetDC(),
+			_vCropPos.x,
+			_vCropPos.y,
+			SRCCOPY);
+	}
+	else
+	{
 		TransparentBlt(
 			m_hMemDC,
 			_vPos.x,
@@ -107,5 +141,6 @@ void CImageManager::CropRender(CTexture * _pTexture, const Vector2 & _vPos, cons
 			_SrcW,
 			_SrcH,
 			_ColorKey);
+	}
 }
 

@@ -6,7 +6,6 @@ enum ButtonStatus
 	OnCursor,
 	OnPress
 };
-
 class CButton
 {
 public:
@@ -19,7 +18,7 @@ public:
 		CTexture * _pOnPress,
 		Vector2 _vPos);
 	void Update();
-	void Render(COLORREF _ColorKey);
+	void Render(COLORREF _ColorKey = -1);
 	void Release();
 
 	bool IsClicked() { return m_bIsClicked; }
