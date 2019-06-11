@@ -10,7 +10,6 @@
 
 CTestScene::CTestScene()
 {
-
 }
 
 

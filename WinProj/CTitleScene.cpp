@@ -4,7 +4,6 @@ bool Credit = false;//Å©·¹µ÷È­¸é
 
 CTitleScene::CTitleScene()
 {
-	
 }
 
 CTitleScene::~CTitleScene()
