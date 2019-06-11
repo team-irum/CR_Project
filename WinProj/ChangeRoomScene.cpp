@@ -13,7 +13,7 @@ ChangeRoomScene::~ChangeRoomScene()
 
 void ChangeRoomScene::Init()
 {
-	
+
 }
 
 void ChangeRoomScene::Update()
