@@ -1,10 +1,10 @@
 #include "stdafx.h"
 
 bool Credit = false;//크레딧화면
+bool Sound = false;//사운드
 
 CTitleScene::CTitleScene()
 {
-	
 }
 
 CTitleScene::~CTitleScene()
@@ -18,11 +18,13 @@ void CTitleScene::Init()
 	m_Buttons[BUTTON_CREDIT] = new CButton();
 	m_Buttons[BUTTON_EXIT] = new CButton();
 	m_Buttons[BUTTON_WINDOWCLOSE] = new CButton();
+	m_Buttons[BUTTON_SOUND] = new CButton();
 	
-	m_Buttons[BUTTON_START]->Init(IMAGE["StartButton1"], IMAGE["StartButton2"], IMAGE["StartButton3"], {40, 600});
-	m_Buttons[BUTTON_CREDIT]->Init(IMAGE["CreditButton1"], IMAGE["CreditButton2"], IMAGE["CreditButton3"], { 240, 600 });
-	m_Buttons[BUTTON_EXIT]->Init(IMAGE["ExitButton1"], IMAGE["ExitButton2"], IMAGE["ExitButton3"], { 440, 600 });
+	m_Buttons[BUTTON_START]->Init(IMAGE["StartButton1"], IMAGE["StartButton2"], IMAGE["StartButton3"], {240, 700});
+	m_Buttons[BUTTON_CREDIT]->Init(IMAGE["CreditButton1"], IMAGE["CreditButton2"], IMAGE["CreditButton3"], { 450, 150 });
+	m_Buttons[BUTTON_EXIT]->Init(IMAGE["ExitButton1"], IMAGE["ExitButton2"], IMAGE["ExitButton3"], { 440, 700 });
 	m_Buttons[BUTTON_WINDOWCLOSE]->Init(IMAGE["CloseButton1"], IMAGE["CloseButton2"], IMAGE["CloseButton3"], { 300, 60 });
+	m_Buttons[BUTTON_SOUND]->Init(IMAGE["SoundButton1"], IMAGE["SoundButton2"], IMAGE["SoundButton3"], { 450, 50 });
 
 }
 
@@ -47,7 +49,20 @@ void CTitleScene::Update()
 	{
 		Credit = false;
 	}
-
+	
+	if (m_Buttons[BUTTON_SOUND]->IsClicked())
+	{
+		if (Sound == true)
+		{
+			SOUND.Play("BG", true);
+			Sound = false;
+		}
+		else if (Sound == false)
+		{
+			SOUND.Stop("BG");
+			Sound = true;
+		}
+	}
 	if (m_Buttons[BUTTON_EXIT]->IsClicked())
 	{
 		exit(0);
@@ -60,6 +75,7 @@ void CTitleScene::Render()
 	m_Buttons[BUTTON_START]->Render(RGB(255, 0, 255));
 	m_Buttons[BUTTON_CREDIT]->Render(RGB(255, 0, 255));
 	m_Buttons[BUTTON_EXIT]->Render(RGB(255, 0, 255));
+	m_Buttons[BUTTON_SOUND]->Render(RGB(255, 0, 255));
 
 	if (Credit == true)
 	{
