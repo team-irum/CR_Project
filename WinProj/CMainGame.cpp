@@ -16,6 +16,7 @@ void CMainGame::Init()
 	SOUND.AddSound("BG", "./Sound/Bg.mp3");
 	SOUND.Play("BG", true);
 
+	//TitleScene
 	IMAGE.AddTexture("TitleBG", "./resource/Bg/StartBG.bmp");
 	IMAGE.AddTexture("StartButton1", "./resource/Button/1.bmp");
 	IMAGE.AddTexture("StartButton2", "./resource/Button/2.bmp");
@@ -31,8 +32,13 @@ void CMainGame::Init()
 	IMAGE.AddTexture("CloseButton3", "./resource/Button/Close_3.bmp");
 	IMAGE.AddTexture("CreditWindow", "./resource/Credit/CreditWindow.bmp");
 
+	//ChangeRoonScene
+	IMAGE.AddTexture("CRBG", "./resource/Bg/TestBG.bmp");
+
+
 	SCENE.AddScene("TitleScene", new CTitleScene()); // ¾À Ãß°¡
-	SCENE.AddScene("TestScene", new CTestScene()); // ¾À Ãß°¡
+	SCENE.AddScene("TestScene", new CTestScene());
+	SCENE.AddScene("ChangeRoomScene", new ChangeRoomScene());
 	SCENE.ChangeScene("TitleScene"); // ¾À º¯°æ
 
 

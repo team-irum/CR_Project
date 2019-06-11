@@ -130,6 +130,9 @@
     <ClInclude Include="CButton.h">
       <Filter>Engine\Manager\BUTTON</Filter>
     </ClInclude>
+    <ClInclude Include="ChangeRoomScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CSystem.cpp">
@@ -204,6 +207,9 @@
     </ClCompile>
     <ClCompile Include="CButton.cpp">
       <Filter>Engine\Manager\BUTTON</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeRoomScene.cpp">
+      <Filter>Game\Scene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

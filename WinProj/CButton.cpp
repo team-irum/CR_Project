@@ -40,29 +40,35 @@ void CButton::Update()
 
 	bool isCollision = PtInRect(&m_reRect, _vMousePos);
 
-	if (!isCollision) m_Status = Normal;
-
-	switch (m_Status)
+	if (!isCollision)
 	{
-	case Normal:
+		m_Status = Normal;
 		m_bIsClicked = false;
-		if (isCollision == true)
-			m_Status = OnCursor;
-
-		break;
-	case OnCursor:
-		m_bIsClicked = false;
-		if (INPUT.KeyPress(VK_LBUTTON))
-			m_Status = OnPress;
-		break;
-	case OnPress:
-		m_bIsClicked = false;
-		if (INPUT.KeyUp(VK_LBUTTON))
+	}
+	else
+	{
+		switch (m_Status)
 		{
-			m_Status = Normal;
-			m_bIsClicked = true;
+		case Normal:
+			m_bIsClicked = false;
+			if (isCollision == true)
+				m_Status = OnCursor;
+
+			break;
+		case OnCursor:
+			m_bIsClicked = false;
+			if (INPUT.KeyPress(VK_LBUTTON))
+				m_Status = OnPress;
+			break;
+		case OnPress:
+			m_bIsClicked = false;
+			if (INPUT.KeyUp(VK_LBUTTON))
+			{
+				m_Status = Normal;
+				m_bIsClicked = true;
+			}
+			break;
 		}
-		break;
 	}
 }
 
@@ -73,5 +79,5 @@ void CButton::Render(COLORREF _ColorKey)
 
 void CButton::Release()
 {
-	
+
 }
