@@ -70,6 +70,7 @@ void ChangeRoomScene::Update()
 	if(m_Buttons[BUTTON_PART_LEFT]->IsClicked())
 	{
 		PartPage = false;
+		
 	}
 	if (m_Buttons[BUTTON_PART_RIGHT]->IsClicked())
 	{
