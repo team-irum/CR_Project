@@ -49,6 +49,12 @@ void CMainGame::Init()
 	IMAGE.AddTexture("PartButton1", "./resource/Button/InGame/Part_1.bmp");
 	IMAGE.AddTexture("PartButton2", "./resource/Button/InGame/Part_2.bmp");
 	IMAGE.AddTexture("PartButton3", "./resource/Button/InGame/Part_3.bmp");
+	IMAGE.AddTexture("LeftButton_Part1", "./resource/Button/InGame/LeftButton_1.bmp");
+	IMAGE.AddTexture("LeftButton_Part2", "./resource/Button/InGame/LeftButton_2.bmp");
+	IMAGE.AddTexture("LeftButton_Part3", "./resource/Button/InGame/LeftButton_3.bmp");
+	IMAGE.AddTexture("RightButton_Part1", "./resource/Button/InGame/RightButton_1.bmp");
+	IMAGE.AddTexture("RightButton_Part2", "./resource/Button/InGame/RightButton_2.bmp");
+	IMAGE.AddTexture("RightButton_Part3", "./resource/Button/InGame/RightButton_3.bmp");
 
 
 	SCENE.AddScene("TitleScene", new CTitleScene()); // ¾À Ãß°¡

@@ -2,9 +2,9 @@
 
 enum UIStatus
 {
-	Body = 5,
-	Hair,
-	Clothe,
+	 Body = 5,
+	 Hair ,
+	 Clothe ,
 };
 
 class ChangeRoomScene : public CScene
@@ -15,7 +15,9 @@ private:
 		BUTTON_PART_BODY = 5,
 		BUTTON_PART_HAIR,
 		BUTTON_PART_CLOTHE,
-		BUTTON_TITLE = 20
+		BUTTON_TITLE = 20,
+		BUTTON_PART_LEFT = 21,
+		BUTTON_PART_RIGHT = 22,
 	};
 
 public:
@@ -32,3 +34,4 @@ public:
 	map<UIStatus, CTexture *> m_UI;
 	map<SCENE_BUTTON_KIND, CButton *> m_Buttons;
 };
+
