@@ -1,12 +1,16 @@
 #pragma once
+
 class ChangeRoomScene : public CScene
 {
 private:
 	enum SCENE_BUTTON_KIND
 	{
-		BUTTON_PART_BODY = 0,
-		BUTTON_PART_HAIR,
-		BUTTON_PART_CLOTHE,
+		BUTTON_START = 0,
+		BUTTON_CREDIT,
+		BUTTON_EXIT,
+		BUTTON_WINDOWCLOSE,
+		BUTTON_SOUND,
+		BUTTON_TITLE
 	};
 
 public:

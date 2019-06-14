@@ -63,6 +63,7 @@ void CTitleScene::Update()
 			Sound = true;
 		}
 	}
+
 	if (m_Buttons[BUTTON_EXIT]->IsClicked())
 	{
 		exit(0);
