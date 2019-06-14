@@ -44,7 +44,10 @@ void CMainGame::Init()
 	//ChangeRoonScene
 	IMAGE.AddTexture("CRBG", "./resource/Bg/Test.bmp");
 	IMAGE.AddTexture("WearBG", "./resource/Bg/WearUI.bmp");
+	IMAGE.AddTexture("WearBG2", "./resource/Bg/WearUI2.bmp");
+	IMAGE.AddTexture("WearBG3", "./resource/Bg/WearUI3.bmp");
 	IMAGE.AddTexture("PartBG", "./resource/Bg/PartUI.bmp");
+
 
 	SCENE.AddScene("TitleScene", new CTitleScene()); // ¾À Ãß°¡
 	SCENE.AddScene("TestScene", new CTestScene());
