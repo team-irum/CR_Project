@@ -1,39 +1,39 @@
 ﻿  stdafx.cpp
-c:\users\김정훈\desktop\팀\winproj\canimation.h(27): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\canimation.h(27): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   CAmp.cpp
-c:\users\김정훈\desktop\팀\winproj\camp.cpp(32): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\김정훈\desktop\팀\winproj\camp.cpp(37): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\camp.cpp(32): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\camp.cpp(37): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   CAngie.cpp
-c:\users\김정훈\desktop\팀\winproj\cangie.cpp(35): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\김정훈\desktop\팀\winproj\cangie.cpp(40): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\cangie.cpp(35): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\cangie.cpp(40): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   CAnimation.cpp
   CBlip.cpp
-c:\users\김정훈\desktop\팀\winproj\cblip.cpp(32): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\김정훈\desktop\팀\winproj\cblip.cpp(37): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\cblip.cpp(32): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\cblip.cpp(37): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   CButton.cpp
-c:\users\김정훈\desktop\팀\winproj\cbutton.cpp(38): warning C4838: 'FLOAT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-c:\users\김정훈\desktop\팀\winproj\cbutton.cpp(38): warning C4244: '초기화 중': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\cbutton.cpp(38): warning C4838: 'FLOAT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\cbutton.cpp(38): warning C4244: '초기화 중': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   CFish.cpp
   CGash.cpp
-c:\users\김정훈\desktop\팀\winproj\cgash.cpp(31): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\김정훈\desktop\팀\winproj\cgash.cpp(36): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\cgash.cpp(31): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\cgash.cpp(36): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   CImageManager.cpp
-c:\users\김정훈\desktop\팀\winproj\cimagemanager.cpp(55): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\김정훈\desktop\팀\winproj\cimagemanager.cpp(54): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\김정훈\desktop\팀\winproj\cimagemanager.cpp(70): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\김정훈\desktop\팀\winproj\cimagemanager.cpp(69): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\김정훈\desktop\팀\winproj\cimagemanager.cpp(127): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\김정훈\desktop\팀\winproj\cimagemanager.cpp(126): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\김정훈\desktop\팀\winproj\cimagemanager.cpp(122): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\김정훈\desktop\팀\winproj\cimagemanager.cpp(121): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\김정훈\desktop\팀\winproj\cimagemanager.cpp(140): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\김정훈\desktop\팀\winproj\cimagemanager.cpp(139): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\김정훈\desktop\팀\winproj\cimagemanager.cpp(135): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\김정훈\desktop\팀\winproj\cimagemanager.cpp(134): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\cimagemanager.cpp(55): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\cimagemanager.cpp(54): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\cimagemanager.cpp(70): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\cimagemanager.cpp(69): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\cimagemanager.cpp(127): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\cimagemanager.cpp(126): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\cimagemanager.cpp(122): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\cimagemanager.cpp(121): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\cimagemanager.cpp(140): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\cimagemanager.cpp(139): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\cimagemanager.cpp(135): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\cimagemanager.cpp(134): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   CInputManager.cpp
   CItchy.cpp
-c:\users\김정훈\desktop\팀\winproj\citchy.cpp(31): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\김정훈\desktop\팀\winproj\citchy.cpp(36): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\citchy.cpp(31): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\citchy.cpp(36): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   CMainGame.cpp
   COctopus.cpp
   CSans.cpp
@@ -42,8 +42,8 @@ c:\users\김정훈\desktop\팀\winproj\citchy.cpp(36): warning C4244: '=': 'int'
   CSound.cpp
   CSoundManager.cpp
   CSystem.cpp
-c:\users\김정훈\desktop\팀\winproj\csystem.cpp(71): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\김정훈\desktop\팀\winproj\csystem.cpp(83): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\csystem.cpp(71): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\방정혁\desktop\방정혁분비물\winproj\csystem.cpp(83): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   CTestScene.cpp
   CTexture.cpp
   코드를 생성하고 있습니다...
@@ -53,11 +53,11 @@ c:\users\김정훈\desktop\팀\winproj\csystem.cpp(83): warning C4244: '인수':
   CTitleScene.cpp
   ChangeRoomScene.cpp
   WinMain.cpp
-c:\users\김정훈\desktop\팀\winproj\winmain.cpp(14): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\방정혁\desktop\방정혁분비물\winproj\winmain.cpp(14): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(243): note: 'freopen' 선언을 참조하십시오.
-c:\users\김정훈\desktop\팀\winproj\winmain.cpp(15): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\방정혁\desktop\방정혁분비물\winproj\winmain.cpp(15): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(243): note: 'freopen' 선언을 참조하십시오.
-c:\users\김정훈\desktop\팀\winproj\winmain.cpp(16): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\방정혁\desktop\방정혁분비물\winproj\winmain.cpp(16): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(243): note: 'freopen' 선언을 참조하십시오.
   코드를 생성하고 있습니다...
-  WinProj.vcxproj -> C:\Users\김정훈\Desktop\팀\Debug\WinProj.exe
+  WinProj.vcxproj -> C:\Users\방정혁\Desktop\방정혁분비물\Debug\WinProj.exe
