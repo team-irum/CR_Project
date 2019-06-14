@@ -36,6 +36,9 @@ void CMainGame::Init()
 	IMAGE.AddTexture("CloseButton1", "./resource/Button/Close_1.bmp");
 	IMAGE.AddTexture("CloseButton2", "./resource/Button/Close_2.bmp");
 	IMAGE.AddTexture("CloseButton3", "./resource/Button/Close_3.bmp");
+	IMAGE.AddTexture("PartButton1", "./resource/Button/Part_1.bmp");
+	IMAGE.AddTexture("PartButton2", "./resource/Button/Part_2.bmp");
+	IMAGE.AddTexture("PartButton3", "./resource/Button/Part_3.bmp");
 	IMAGE.AddTexture("CreditWindow", "./resource/Credit/CreditWindow.bmp");
 	
 	//ChangeRoonScene
