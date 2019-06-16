@@ -14,6 +14,10 @@ CTitleScene::~CTitleScene()
 void CTitleScene::Init()
 {
 	
+	SOUND.Stop("INGAME");
+	if (!Sound)
+	SOUND.Play("BG", true);
+
 	m_Buttons[BUTTON_START] = new CButton();
 	m_Buttons[BUTTON_CREDIT] = new CButton();
 	m_Buttons[BUTTON_EXIT] = new CButton();

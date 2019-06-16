@@ -3,7 +3,7 @@
 
 bool PartPage = false;//카테고리
 bool WearPage = false;//의상
-
+extern bool Sound;
 
 ChangeRoomScene::ChangeRoomScene()
 {
@@ -16,6 +16,10 @@ ChangeRoomScene::~ChangeRoomScene()
 
 void ChangeRoomScene::Init()
 {
+	SOUND.Stop("BG");
+	if(!Sound)
+	SOUND.Play("INGAME", true);
+
 	m_Buttons[BUTTON_TITLE] = new CButton();
 	m_Buttons[BUTTON_PART_BODY] = new CButton();
 	m_Buttons[BUTTON_PART_HAIR] = new CButton();

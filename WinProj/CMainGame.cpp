@@ -14,7 +14,7 @@ CMainGame::~CMainGame()
 void CMainGame::Init()
 {
 	SOUND.AddSound("BG", "./Sound/Bg.mp3");
-	SOUND.Play("BG", true);
+	SOUND.AddSound("INGAME", "./Sound/InGame.mp3");
 
 	//TitleScene
 	IMAGE.AddTexture("CreditWindow", "./resource/Credit/CreditWindow.bmp");
