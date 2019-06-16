@@ -36,8 +36,6 @@ void CMainGame::Init()
 	IMAGE.AddTexture("CloseButton2", "./resource/Button/Title/Close_2.bmp");
 	IMAGE.AddTexture("CloseButton3", "./resource/Button/Title/Close_3.bmp");
 
-	
-	
 	//ChangeRoomScene
 	IMAGE.AddTexture("CRBG", "./resource/Bg/InGame/Test.bmp");
 	IMAGE.AddTexture("WearBG", "./resource/Bg/InGame/WearUI.bmp");
@@ -82,7 +80,7 @@ void CMainGame::Update()
 void CMainGame::Render()
 {
 	IMAGE.Begin();
-	
+
 	SCENE.Render();
 
 	IMAGE.End();
