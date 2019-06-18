@@ -133,6 +133,7 @@
     <ClInclude Include="ChangeRoomScene.h">
       <Filter>Game\Scene</Filter>
     </ClInclude>
+    <ClInclude Include="Costume.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CSystem.cpp">
@@ -211,6 +212,7 @@
     <ClCompile Include="ChangeRoomScene.cpp">
       <Filter>Game\Scene</Filter>
     </ClCompile>
+    <ClCompile Include="Costume.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="WinProj.rc">

@@ -38,23 +38,41 @@ void CMainGame::Init()
 
 	//ChangeRoomScene
 	IMAGE.AddTexture("CRBG", "./resource/Bg/InGame/Test.bmp");
+	IMAGE.AddTexture("UIBG", "./resource/Bg/InGame/InGameUI.bmp");
 	IMAGE.AddTexture("WearBG", "./resource/Bg/InGame/WearUI.bmp");
 	IMAGE.AddTexture("WearBG2", "./resource/Bg/InGame/WearUI2.bmp");
 	IMAGE.AddTexture("WearBG3", "./resource/Bg/InGame/WearUI3.bmp");
 	IMAGE.AddTexture("PartBG", "./resource/Bg/InGame/PartUI.bmp");
 
-	IMAGE.AddTexture("HomeButton1", "./resource/Button/InGame/h_1.bmp");
-	IMAGE.AddTexture("HomeButton2", "./resource/Button/InGame/h_2.bmp");
-	IMAGE.AddTexture("HomeButton3", "./resource/Button/InGame/h_3.bmp");
-	IMAGE.AddTexture("PartButton1", "./resource/Button/InGame/Part_1.bmp");
-	IMAGE.AddTexture("PartButton2", "./resource/Button/InGame/Part_2.bmp");
-	IMAGE.AddTexture("PartButton3", "./resource/Button/InGame/Part_3.bmp");
-	IMAGE.AddTexture("LeftButton_Part1", "./resource/Button/InGame/LeftButton_1.bmp");
-	IMAGE.AddTexture("LeftButton_Part2", "./resource/Button/InGame/LeftButton_2.bmp");
-	IMAGE.AddTexture("LeftButton_Part3", "./resource/Button/InGame/LeftButton_3.bmp");
-	IMAGE.AddTexture("RightButton_Part1", "./resource/Button/InGame/RightButton_1.bmp");
-	IMAGE.AddTexture("RightButton_Part2", "./resource/Button/InGame/RightButton_2.bmp");
-	IMAGE.AddTexture("RightButton_Part3", "./resource/Button/InGame/RightButton_3.bmp");
+	IMAGE.AddTexture("HomeButton1", "./resource/Button/InGame/ui_Back.bmp");
+	IMAGE.AddTexture("HomeButton2", "./resource/Button/InGame/ui_Back.bmp");
+	IMAGE.AddTexture("HomeButton3", "./resource/Button/InGame/ui_Back.bmp");
+	IMAGE.AddTexture("LeftButton_Scroll1", "./resource/Button/InGame/ui_Scroll_Left.bmp");
+	IMAGE.AddTexture("LeftButton_Scroll2", "./resource/Button/InGame/ui_Scroll_Left.bmp");
+	IMAGE.AddTexture("LeftButton_Scroll3", "./resource/Button/InGame/ui_Scroll_Left.bmp");
+	IMAGE.AddTexture("RightButton_Scroll1", "./resource/Button/InGame/ui_Scroll_Right.bmp");
+	IMAGE.AddTexture("RightButton_Scroll2", "./resource/Button/InGame/ui_Scroll_Right.bmp");
+	IMAGE.AddTexture("RightButton_Scroll3", "./resource/Button/InGame/ui_Scroll_Right.bmp");
+	IMAGE.AddTexture("LeftButton_Wear1", "./resource/Button/InGame/ui_Wear_Left.bmp");
+	IMAGE.AddTexture("LeftButton_Wear2", "./resource/Button/InGame/ui_Wear_Left.bmp");
+	IMAGE.AddTexture("LeftButton_Wear3", "./resource/Button/InGame/ui_Wear_Left.bmp");
+	IMAGE.AddTexture("RightButton_Wear1", "./resource/Button/InGame/ui_Wear_Right.bmp");
+	IMAGE.AddTexture("RightButton_Wear2", "./resource/Button/InGame/ui_Wear_Right.bmp");
+	IMAGE.AddTexture("RightButton_Wear3", "./resource/Button/InGame/ui_Wear_Right.bmp");
+	IMAGE.AddTexture("AccessoryButton1", "./resource/Button/InGame/ui_Accessory.bmp");
+	IMAGE.AddTexture("BGButton1", "./resource/Button/InGame/ui_BG.bmp");
+	IMAGE.AddTexture("BodyButton1", "./resource/Button/InGame/ui_Body.bmp");
+	IMAGE.AddTexture("EarButton1", "./resource/Button/InGame/ui_Ear.bmp");
+	IMAGE.AddTexture("EyeButton1", "./resource/Button/InGame/ui_Eye.bmp");
+	IMAGE.AddTexture("EyeBrowButton1", "./resource/Button/InGame/ui_EyeBrow.bmp");
+	IMAGE.AddTexture("Hair1Button1", "./resource/Button/InGame/ui_Hair1.bmp");
+	IMAGE.AddTexture("Hair2Button1", "./resource/Button/InGame/ui_Hair2.bmp");
+	IMAGE.AddTexture("MouthButton1", "./resource/Button/InGame/ui_Mouth.bmp");
+	IMAGE.AddTexture("NoseButton1", "./resource/Button/InGame/ui_Nose.bmp");
+	IMAGE.AddTexture("ObjectButton1", "./resource/Button/InGame/ui_Object.bmp");
+	IMAGE.AddTexture("PantButton1", "./resource/Button/InGame/ui_Pant.bmp");
+	IMAGE.AddTexture("ShoesButton1", "./resource/Button/InGame/ui_Shoes.bmp");
+	IMAGE.AddTexture("TopButton1", "./resource/Button/InGame/ui_Top.bmp");
 
 
 	SCENE.AddScene("TitleScene", new CTitleScene()); // ¾À Ãß°¡

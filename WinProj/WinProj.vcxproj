@@ -156,6 +156,7 @@
     <ClInclude Include="CItchy.h" />
     <ClInclude Include="CMainGame.h" />
     <ClInclude Include="COctopus.h" />
+    <ClInclude Include="Costume.h" />
     <ClInclude Include="CSans.h" />
     <ClInclude Include="CScene.h" />
     <ClInclude Include="CSceneManager.h" />
@@ -187,6 +188,7 @@
     <ClCompile Include="CItchy.cpp" />
     <ClCompile Include="CMainGame.cpp" />
     <ClCompile Include="COctopus.cpp" />
+    <ClCompile Include="Costume.cpp" />
     <ClCompile Include="CSans.cpp" />
     <ClCompile Include="CScene.cpp" />
     <ClCompile Include="CSceneManager.cpp" />

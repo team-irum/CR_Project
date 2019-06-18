@@ -24,9 +24,9 @@ void CTitleScene::Init()
 	m_Buttons[BUTTON_WINDOWCLOSE] = new CButton();
 	m_Buttons[BUTTON_SOUND] = new CButton();
 	
-	m_Buttons[BUTTON_START]->Init(IMAGE["StartButton1"], IMAGE["StartButton2"], IMAGE["StartButton3"], {240, 700});
+	m_Buttons[BUTTON_START]->Init(IMAGE["StartButton1"], IMAGE["StartButton2"], IMAGE["StartButton3"], {240, 790});
 	m_Buttons[BUTTON_CREDIT]->Init(IMAGE["CreditButton1"], IMAGE["CreditButton2"], IMAGE["CreditButton3"], { 450, 150 });
-	m_Buttons[BUTTON_EXIT]->Init(IMAGE["ExitButton1"], IMAGE["ExitButton2"], IMAGE["ExitButton3"], { 440, 700 });
+	m_Buttons[BUTTON_EXIT]->Init(IMAGE["ExitButton1"], IMAGE["ExitButton2"], IMAGE["ExitButton3"], { 440, 790 });
 	m_Buttons[BUTTON_WINDOWCLOSE]->Init(IMAGE["CloseButton1"], IMAGE["CloseButton2"], IMAGE["CloseButton3"], { 300, 60 });
 	m_Buttons[BUTTON_SOUND]->Init(IMAGE["SoundButton1"], IMAGE["SoundButton2"], IMAGE["SoundButton3"], { 450, 50 });
 
